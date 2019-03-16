@@ -1,26 +1,20 @@
 package cn.ugle.plugin.ijkplayer;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.support.annotation.AttrRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-import android.view.View;
 import android.widget.FrameLayout;
 
 import java.io.IOException;
-import java.lang.reflect.Field;
-import java.math.BigInteger;
-import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
+import androidx.annotation.AttrRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 
